@@ -1,0 +1,484 @@
+!SESSION 2022-03-07 17:33:24.525 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-03-07 17:34:06.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 17:34:06.238
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bea7b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31433df9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 17:34:06.238
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d4a0671,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ab9c735,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-03-07 19:06:04.448 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-03-07 19:06:18.668
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:06:18.668
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e9f8160,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e998033,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:06:18.668
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e1a150c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@527d5e48,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:09.452
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:11.719
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201303010900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:14.688
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201209280900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:17.521
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201206270900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:20.238
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/juno/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:37.638
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-03-07 19:08:38.202
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:249)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-03-07 19:08:38.205
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2022-03-07 19:08:38.205
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:38.210
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:38.529
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:38.683
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:38.764
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:38.923
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.010
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.169
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.255
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.486
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.655
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.742
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.903
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:39.997
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.163
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.254
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.548
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.640
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.799
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:40.890
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.052
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.135
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.292
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.372
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.680
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:41.683
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:48.286
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:52.445
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:08:54.579
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-03-07 19:09:00.726
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-03-07 19:09:00.726
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:02.683
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:06.793
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:08.946
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:21.424
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:24.082
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201303010900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:26.301
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201209280900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:28.483
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/juno/201206270900, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:09:30.710
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/juno/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.947
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.core,1.2.0.v200908252030.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.948
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.frameworks.ui,1.2.201.v201208292200.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.948
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.modulecore,1.2.201.v201301092200.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.948
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.environment,1.0.400.v200912181832.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.jem.util,2.1.100.v201103021400.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.frameworks,1.2.200.v201203141800.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.infopop,1.0.300.v201004280700.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:20.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.modulecore.ui,1.0.201.v201208241600.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:25.999
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.snippets,1.2.200.v201204260225.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.351
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.ui,1.1.500.v200911190730.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.354
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.common.uriresolver,1.2.0.v201203071939.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:11:26.392
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.eclipse.wst.common_core.feature,3.4.2.v201212051536-7B7EFMVF7RZHOkJkNwS4TV have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.593
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.dtd.core,1.1.600.v201205171933.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.595
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.dtd.ui,1.0.700.v201203081826.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:11:26.600
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.eclipse.wst.common_ui.feature,3.4.2.v201212051536-7C7AFeFEdhOaweLhCnQfylKlOxT5UW have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.652
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.dtd.ui.infopop,1.0.400.v201008112018.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:26.660
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.dtdeditor.doc.user,1.0.700.v201008112018.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:27.049
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.internet.cache,1.0.600.v201203071939.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:28.745
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.sse.core,1.1.702.v201301241617.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:28.766
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.sse.doc.user,1.1.100.v201005192212.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:28.786
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.sse.ui,1.3.102.v201301162301.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:28.879
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.sse.ui.infopop,1.0.300.v201004150328.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:28.976
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.standard.schemas,1.0.501.v201301091615.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:29.109
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.validation.infopop,1.0.300.v200806041506.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:29.109
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.validation,1.2.402.v201212031633.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:29.190
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.validation.ui,1.2.400.v201204260100.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:29.383
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xml.core,1.1.702.v201301101836.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:29.680
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xml.ui,1.1.302.v201301172222.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:30.920
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xml.ui.infopop,1.0.400.v201004292007.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:11:31.199
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.eclipse.wst.xml_core.feature,3.4.2.v201211061806-7C7OFm9F7RZHQVHiOz-P0Up have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:11:31.534
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.eclipse.wst.xml_ui.feature,3.4.2.v201211061806-7H7GFeJDxumUrsn5qkiQgOEhsz0p60HAmPyU6VX have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-03-07 19:11:31.833
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.eclipse.wst.xml_userdoc.feature,3.3.0.v201102071641-50FYwAkF7B77UBZFDBL have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:31.952
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xmleditor.doc.user,1.0.700.v201005192212.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:32.152
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xsd.core,1.1.700.v201204102147.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:32.274
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xsd.ui,1.2.500.v201203081826.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-03-07 19:11:32.393
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.wst.xsdeditor.doc.user,1.0.800.v201005192212.
+!SESSION 2022-03-07 19:11:50.657 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/mahirasushilpallavibante/JavaPreparation/walletHub/ -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-03-07 19:11:58.791
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:11:58.791
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5602e540,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11f9b95a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:11:58.791
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42066f0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@687e561b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2022-03-07 19:12:36.917 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mahirasushilpallavibante/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-03-07 19:12:53.339
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:12:53.339
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ac646b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24b38e8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-07 19:12:53.339
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5cf072ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1edac3b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
