@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="walletHub">
+
+
+	<listeners>
+		<listener class-name="com.walletHub.utilities.Repporting" />
+	</listeners>
+
+	<test name="walletHub Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.walletHub.testCases.TC_FaceBook_001" />
+			<class name="com.walletHub.testCases.TC_WalletHub_002" />
+
+		</classes>
+
+	</test>
+	
+	
+	
+	
+</suite>
