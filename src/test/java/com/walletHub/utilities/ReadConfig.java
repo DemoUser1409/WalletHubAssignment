@@ -44,10 +44,17 @@ public class ReadConfig {
 		return whurl;
 	}
 	
+	public String getWallethubProfileUrl() {
+		String whurl = pro.getProperty("wallethubProfileurl");
+		return whurl;
+	}
+	
 	public String getWallethubUser() {
 		String whUser = pro.getProperty("username");
 		return whUser;
 	}
+	
+
 	
 	public String getWallethubPass() {
 		String whPassword = pro.getProperty("walletHubPassword");
@@ -58,5 +65,8 @@ public class ReadConfig {
 		String chromeDriver = pro.getProperty("chromdriver");
 		return chromeDriver;
 	}
-	
+	public String getFirefoxDriverPath() {
+		String FirefoxDriver = pro.getProperty("firefoxdriver");
+		return FirefoxDriver;
+	}
 }

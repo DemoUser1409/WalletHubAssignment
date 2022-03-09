@@ -1,0 +1,29 @@
+2022-03-09 14:47:01,671 [main] INFO ebanking - Starting Facebook Test Case.
+2022-03-09 14:47:01,679 [main] INFO ebanking - Opening facebook.
+2022-03-09 15:02:35,515 [main] INFO ebanking - Starting Facebook Test Case.
+2022-03-09 15:02:35,523 [main] INFO ebanking - Opening facebook URL.
+2022-03-09 15:02:39,205 [main] INFO ebanking - Entering Facebook Username.
+2022-03-09 15:02:39,502 [main] INFO ebanking - Entering Facebook Password.
+2022-03-09 15:02:39,654 [main] INFO ebanking - Clicking on Login button.
+2022-03-09 15:02:46,313 [main] INFO ebanking - Successfully logged in into Facebook.
+2022-03-09 15:02:46,316 [main] INFO ebanking - Clicking on Enter Status field.
+2022-03-09 15:02:50,702 [main] INFO ebanking - Entering Hello World Status.
+2022-03-09 15:02:51,987 [main] INFO ebanking - Clicking on Post Status button.
+2022-03-09 15:02:54,006 [main] INFO ebanking - Clicking on Self Profile link.
+2022-03-09 15:02:55,381 [main] INFO ebanking - Status posted successfully on user profile.
+2022-03-09 16:19:21,364 [main] INFO ebanking - Starting Facebook Test Case.
+2022-03-09 16:19:21,370 [main] INFO ebanking - Opening facebook URL.
+2022-03-09 16:19:25,214 [main] INFO ebanking - Entering Facebook Username.
+2022-03-09 16:19:25,517 [main] INFO ebanking - Entering Facebook Password.
+2022-03-09 16:19:25,700 [main] INFO ebanking - Clicking on Login button.
+2022-03-09 16:19:33,702 [main] INFO ebanking - Successfully logged in into Facebook.
+2022-03-09 16:19:33,705 [main] INFO ebanking - Clicking on Enter Status field.
+2022-03-09 16:19:38,020 [main] INFO ebanking - Entering Hello World Status.
+2022-03-09 16:19:39,949 [main] INFO ebanking - Clicking on Post Status button.
+2022-03-09 16:19:42,886 [main] INFO ebanking - Clicking on Self Profile link.
+2022-03-09 16:19:43,953 [main] INFO ebanking - Status not posted on user profile.
+2022-03-09 16:19:45,901 [main] INFO ebanking - Starting WalletHub Test Case.
+2022-03-09 16:19:55,168 [main] INFO ebanking - Clicking on the Signin Link.
+2022-03-09 16:19:58,596 [main] INFO ebanking - Entering Username.
+2022-03-09 16:19:59,070 [main] INFO ebanking - Entering Password
+2022-03-09 16:19:59,144 [main] INFO ebanking - Clicking on Login Button.

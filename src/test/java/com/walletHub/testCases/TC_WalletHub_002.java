@@ -1,84 +1,68 @@
 package com.walletHub.testCases;
-
-import static org.testng.Assert.assertEquals;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.walletHub.pageObjects.WalletHub;
 
 public class TC_WalletHub_002 extends BaseClass {
 
-	String review_description = randomestring();
-
-	@Test
-
-	public void login_test() {
-		driver.get(wallethuburl);
-		driver.manage().window().maximize();
-		WalletHub wh = new WalletHub(driver);
-
-		// click on sign in link
-		wh.click_on_link_signin();
-
-		// enter username
-		wh.enter_username(walletHubUser);
-
-		// enter password
-		wh.enter_password(wallethubPassword);
-
-		// click on login button
-		wh.clickOnLoginButton();
-
-	}
+	String review_description = randomestring(200);
 
 	@Test
 	public void writeReview() {
-
+		
+		logger.info("Starting WalletHub Test Case.");
+		WalletHub wh = new WalletHub(driver);
 		driver.get(wallethuburl);
 		driver.manage().window().maximize();
-		WalletHub wh = new WalletHub(driver);
+		
+		logger.info("Clicking on the Signin Link.");
+		wh.click_on_link_signin();					// click on sign in link
 
-		// Scroll down
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,250)", "");
+		logger.info("Entering Username.");
+		wh.enter_username(walletHubUser);			// enter username
 
-		// Hover over all the stars
-		wh.hover_stars();
+		logger.info("Entering Password");
+		wh.enter_password(wallethubPassword);		// enter password
 
-		// Click on fourth star
-		wh.clickOnFourStar();
+		logger.info("Clicking on Login Button.");
+		wh.clickOnLoginButton(); 					// click on login button
+		
+		explicitWaitUntilVisibilityofElement(wh.getFiveStar());
+		
+		logger.info("Scrolling Down ....!");
+		wh.scrollDown();							// Scroll down
 
-		// wait for Review text for to be visible
-		wh.waitForElementToBeVisible();
+		logger.info("Horring over all the five stars.");
+		wh.hover_stars();							// Hover over all the stars
 
-		// Select Health Insurance from policy Dropdown
-		wh.selectValueFromPolicyDropdown();
+		logger.info("Clicking on forth star.");
+		wh.clickOnFourStar();						// Click on fourth star
 
-		// enter review in Review textbox
-		wh.enterTextinReview(review_description);
+		logger.info("Waiting for the Write review textbox to be visible.");
+		explicitWaitUntilVisibilityofElement(wh.gettxtWriteReview()); 	// wait for Review text for to be visible
 
-		// click on submit button
-		wh.clickOnSubmit();
+		logger.info("Select Health Insurance from Policy dropdown.");
+		wh.selectValueFromPolicyDropdown();			// Select Health Insurance from policy Dropdown
 
-		// Verify review added is present on home page or not
-		Assert.assertTrue(wh.isReviewPosted(), "Review is present on the screen.");
+		logger.info("Entering Review.");
+		wh.enterTextinReview(review_description);	// enter review in Review textbox
 
-	}
+		logger.info("Clicking on Submit button.");
+		wh.clickOnSubmit();							// click on submit button
+		
+		explicitWaitUntilVisibilityofElement(wh.getSuccessText());
+		
+		logger.info("Asserting review get added successfully.");
+		Assert.assertEquals(wh.getSuccessText().getText(), "Your review has been posted.");	// Verify review added is present on home page or not
 
-	@Test
-	public void verifyReview() {
-
-		login_test();
-		WalletHub wh = new WalletHub(driver);
-
-		// Verify review added is present on home page or not
-		Assert.assertTrue(wh.isReviewPosted(), "Review is present on the screen.");
-
-		// Verify the entered review description.
-		String actual_description = wh.get_review_description();
-
-		// Assert added review equals to expected review.
-		assertEquals(actual_description, review_description);
+		logger.info("Opening user profile.");
+		driver.get(wallethubProfilUrl);				// Open Wallethub profile URL
+		
+		logger.info("Waiting for visibility of Updated review field.");
+		explicitWaitUntilVisibilityofElement(wh.getUpdatedReviewFeed());
+		
+		logger.info("Asserting Updated review present in profile.");
+		Assert.assertTrue(wh.getUpdatedReviewFeed().isDisplayed(), "Updated review feed(s) present on the profile.");
 
 	}
 

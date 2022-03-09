@@ -1,0 +1,29 @@
+2022-03-09 14:47:01,671 - ebanking -INFO - Starting Facebook Test Case.
+2022-03-09 14:47:01,679 - ebanking -INFO - Opening facebook.
+2022-03-09 15:02:35,515 - ebanking -INFO - Starting Facebook Test Case.
+2022-03-09 15:02:35,523 - ebanking -INFO - Opening facebook URL.
+2022-03-09 15:02:39,205 - ebanking -INFO - Entering Facebook Username.
+2022-03-09 15:02:39,502 - ebanking -INFO - Entering Facebook Password.
+2022-03-09 15:02:39,654 - ebanking -INFO - Clicking on Login button.
+2022-03-09 15:02:46,313 - ebanking -INFO - Successfully logged in into Facebook.
+2022-03-09 15:02:46,316 - ebanking -INFO - Clicking on Enter Status field.
+2022-03-09 15:02:50,702 - ebanking -INFO - Entering Hello World Status.
+2022-03-09 15:02:51,987 - ebanking -INFO - Clicking on Post Status button.
+2022-03-09 15:02:54,006 - ebanking -INFO - Clicking on Self Profile link.
+2022-03-09 15:02:55,381 - ebanking -INFO - Status posted successfully on user profile.
+2022-03-09 16:19:21,364 - ebanking -INFO - Starting Facebook Test Case.
+2022-03-09 16:19:21,370 - ebanking -INFO - Opening facebook URL.
+2022-03-09 16:19:25,214 - ebanking -INFO - Entering Facebook Username.
+2022-03-09 16:19:25,517 - ebanking -INFO - Entering Facebook Password.
+2022-03-09 16:19:25,700 - ebanking -INFO - Clicking on Login button.
+2022-03-09 16:19:33,702 - ebanking -INFO - Successfully logged in into Facebook.
+2022-03-09 16:19:33,705 - ebanking -INFO - Clicking on Enter Status field.
+2022-03-09 16:19:38,020 - ebanking -INFO - Entering Hello World Status.
+2022-03-09 16:19:39,949 - ebanking -INFO - Clicking on Post Status button.
+2022-03-09 16:19:42,886 - ebanking -INFO - Clicking on Self Profile link.
+2022-03-09 16:19:43,953 - ebanking -INFO - Status not posted on user profile.
+2022-03-09 16:19:45,901 - ebanking -INFO - Starting WalletHub Test Case.
+2022-03-09 16:19:55,168 - ebanking -INFO - Clicking on the Signin Link.
+2022-03-09 16:19:58,596 - ebanking -INFO - Entering Username.
+2022-03-09 16:19:59,070 - ebanking -INFO - Entering Password
+2022-03-09 16:19:59,144 - ebanking -INFO - Clicking on Login Button.

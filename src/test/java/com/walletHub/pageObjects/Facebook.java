@@ -1,18 +1,15 @@
 package com.walletHub.pageObjects;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Facebook {
 
 	
 	WebDriver ldriver;
+	
 	
 	public Facebook(WebDriver rdriver){
 		
@@ -36,8 +33,8 @@ public class Facebook {
 	@FindBy(xpath = "//div[@aria-label='Create a post']//*[contains(text(),'your mind')]")
 	@CacheLookup
 	WebElement btnStatus;
-	
-	@FindBy(xpath ="//span[contains(text(),'on your mind')]")
+
+	@FindBy(xpath ="//*[@class='_5rpb']/div")
 	@CacheLookup
 	WebElement txtStatus;
 	
@@ -45,64 +42,100 @@ public class Facebook {
 	@CacheLookup
 	WebElement btnPost;
 	
-	@FindBy(xpath = "//form[@method='POST']/div")
+	@FindBy(xpath = "//*[@href='/me/']")
 	@CacheLookup
-	WebElement fbform;
+	WebElement linkme;
 	
+	@FindBy(xpath = "//*[contains(text(),'Hello World')]")
+	@CacheLookup
+	WebElement postedStatus;
 	
-	public void clickLoginButton() {
-		
+	/**
+	 * This method is use to click on the login button.
+	 */
+	public void clickLoginButton() 
+	{
 		btnloginbutton.click();
-		
 	}
 	
+	/**
+	 * This method is use to enter the Username.
+	 * @param user
+	 */
 	public void setUsername(String user)
 	{
+		txtusername.clear();
 		txtusername.sendKeys(user);
 	}
 	
+	/**
+	 * This method is use to enter the Password.
+	 * @param password
+	 */
 	public void setPassword(String password)
 	{
+		txtpassword.clear();
 		txtpassword.sendKeys(password);
 	}
 	
-	public boolean isStatusDisplayed() {
-		return btnStatus.isDisplayed();
-	}
-	
-	public void clickPost() {
+	/**
+	 * This method is use to click on the Post button.
+	 */
+	public void clickPost() 
+	{
 		btnPost.click();
 	}
 	
-	public void enterStatus(String status)
+	/**
+	 * This method is use to enter the Facebook Status.
+	 * @param status : Facebook Status
+	 */
+	public void enterStatus(String status) 
 	{
-		txtStatus.sendKeys(status);
-		
+		txtStatus.sendKeys(status);		    
 	}
 	
-	
+	/**
+	 * This method is use to click on the Post Status field.
+	 */
 	public void clickStatusbutton()
 	{
 		btnStatus.click();
 	}
 	
+	/**
+	 * This method is use to get the Status WebElement.
+	 * @return
+	 */
 	public WebElement getStatus()
 	{
 		return txtStatus;
 	}
 	
-	public void waitUntil()
+	/**
+	 * This method returns the post status field.
+	 * @return
+	 */
+	public WebElement getStatusfield() 
 	{
-	
-		WebDriverWait wait = new WebDriverWait(ldriver,30);
-		
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'on your mind')]")));
+		return btnStatus;
 	}
 	
-
+	/**
+	 * This method click on the Self Profile link.
+	 */
+	public void clickOnSelfLink() 
+	{
+		linkme.click();
+	}
 	
-	public void fbformclickmethod() {
-		fbform.click();
+	/**
+	 * This method returns the Status posted webelement.
+	 * @return
+	 */
+	public WebElement getPostedStatus()
+	{
+		return postedStatus;
 	}
 	
 	
