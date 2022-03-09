@@ -11,7 +11,7 @@
 	<test name="walletHub Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.walletHub.testCases.TC_FaceBook_001" />
+			<class name="com.walletHub.testCases.TC_FaceBook_001" /> 
 			<class name="com.walletHub.testCases.TC_WalletHub_002" />
 
 		</classes>
